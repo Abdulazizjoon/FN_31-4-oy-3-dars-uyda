@@ -103,12 +103,56 @@
 // }
 
 //12-misol
-let a = 5;
-let b = 6;
+// let a = 5;
+// let b = 6;
+// let c = 7;
 
-if ((a % 2 == 1 && b & (2 == 1)) || (a % 2 == 0 && b % 2 == 0)) {
-  console.log(true);
+// if (a > 0 && b > 0 && c > 0) {
+//   console.log(true);
+// } else {
+//   console.log(false);
+// }
+
+//13-misol
+// let a = 5;
+// let b = 6;
+// let c = 7;
+
+// if (a > 0 || b > 0 || c > 0) {
+//   console.log(true);
+// } else {
+//   console.log(false);
+// }
+
+//14-misol
+// let a = 5;
+// let b = 6;
+// let c = 7;
+
+// if (
+//   (a > 0 && b < 0 && c < 0) ||
+//   (a < 0 && b > 0 && c < 0) ||
+//   (a < 0 && b < 0 && c > 0)
+// ) {
+//   console.log(true);
+// } else {
+//   console.log(false);
+// }
+
+//16-misol
+// let a = +prompt('son kiriting');
+
+// if (a > 9 && a % 2 == 0) {
+//   console.log(`{a} soni ikki honali va juft son`);
+// } else {
+//   console.log(`{a} soni ikki honali son emas`);
+// }
+
+//17-misol
+let a = +prompt("son kiriting");
+
+if (a > 99 && a % 2 == 1) {
+  console.log(`{a} soni uch honali va toq son`);
 } else {
-  console.log(false);
+  console.log(`{a} soni ikki honali son emas`);
 }
-
