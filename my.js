@@ -149,10 +149,10 @@
 // }
 
 //17-misol
-let a = +prompt("son kiriting");
+// let a = +prompt("son kiriting");
 
-if (a > 99 && a % 2 == 1) {
-  console.log(`{a} soni uch honali va toq son`);
-} else {
-  console.log(`{a} soni ikki honali son emas`);
-}
+// if (a > 99 && a % 2 == 1) {
+//   console.log(`{a} soni uch honali va toq son`);
+// } else {
+//   console.log(`{a} soni ikki honali son emas`);
+// }
