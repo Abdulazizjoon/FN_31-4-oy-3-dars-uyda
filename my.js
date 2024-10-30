@@ -156,3 +156,31 @@
 // } else {
 //   console.log(`{a} soni ikki honali son emas`);
 // }
+
+//20-misol
+
+// let son = +prompt("son kiriting");
+
+// let birlar = num % 10;
+// let onlar = ((son - birlar) / 10) % 10;
+// let yuzlar = (son - (son % 100)) / 100;
+
+// let res = false;
+// if (birlar != onlar && birlar != yuzlar && onlar != yuzlar) {
+//     res=true
+// }
+
+//22-misol
+
+let son = +prompt("son kiriting");
+
+let birlar = son % 10;
+let onlar = Math.trunc(son/10)%10
+let yuzlar = Math.trunc(son%100)/10
+let minglar= Math.trunc(son%1000) /10
+
+if (birlar==yuzlar&& onlar==minglar) {
+  console.log(son);
+} else {
+    console.log(false);
+}
